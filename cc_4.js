@@ -6,5 +6,7 @@ if (purchaseAmount > 100) {
     finalAmount = purchaseAmount * 0.4;
 }
 console.log("Customer Discount Applied"); 
-console.log("Final Amount with discount", finalAmount);
+console.log(\`Final amount after discount: $${finalAmount}\`);
 
+
+// Task 2 Sales Report 
