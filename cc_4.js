@@ -52,9 +52,20 @@ for (let product of products);
 
 console.log("Product Listings", products);
 
-//Task 7 Order Processing 
+// Task 7 Order Processing 
 let orders = [876, 868, 246]; 
 orders.forEach(orderIDs =>{}) 
 
 console.log("Order IDs", orders);
 
+// Task 8 Tax Calculation
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}
+const amount = 750;
+const taxRate = 0.05;
+// Tax Usage 
+
+const tax = calculateTax(amount, taxRate);
+
+console.log("Tax", calculateTax);
