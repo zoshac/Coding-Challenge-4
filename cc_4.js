@@ -31,3 +31,10 @@ while (stock > 0){
 console.log("Stock Remainging", stock);
 console.log("Stock Depleted");
 
+// Task 4 Customer Survey
+let responses = 0; 
+do {
+    responses++;
+} while(responses < 3);
+
+console.log("Response Collection", responses);
