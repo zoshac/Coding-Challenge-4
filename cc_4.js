@@ -13,7 +13,21 @@ console.log(`Final amount after discount: $${finalAmount}`);
 let sales = [200, 150, 500, 300, 450];
 let totalSales = 0;
 
+// Total Sales calculation
+
 for (let i = 0; i < sales.length; i++) {
     totalSales += sales[i];
 }
 console.log(`Total Sales: $${totalSales}`);
+
+// Task 3 Inventory Depletion 
+let stock = 10;
+
+// Depletion of stock 'til finished 
+
+while (stock > 0){
+    stock--;
+}
+console.log("Stock Remainging", stock);
+console.log("Stock Depleted");
+
