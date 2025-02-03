@@ -70,7 +70,7 @@ const tax = calculateTax(amount, taxRate);
 
 console.log("Tax", calculateTax);
 
-//Task 9 Discount Application
+// Task 9 Discount Application
 const applyDiscount = function(price, discountPercentage){
     return price - (price * (discountPercentage / 100));
 };
@@ -78,3 +78,10 @@ let discountPrice = applyDiscount (500, 20)
 
 console.log(`Discounted price: $${discountPrice}`);
 
+// Task 10 Loyalty Points
+const calculatePoints = (purchaseAmount) => {
+    return (purchaseAmount / 10);
+};
+let points = calculatePoints(600);
+
+console.log(`Customer Loyalty Points: ${points}`);
