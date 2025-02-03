@@ -46,4 +46,9 @@ for (let key in employee); //Iterate through object properties
 
 console.log("Emploee Info", employee);
 
-// Task 6 
+// Task 6 Product Listings 
+let products  = ["mascara", "foundation", "blush"];
+for (let product of products);
+
+console.log("Product Listings", products);
+
