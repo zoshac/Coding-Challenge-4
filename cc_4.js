@@ -38,3 +38,12 @@ do {
 } while(responses < 3);
 
 console.log("Response Collection", responses);
+
+// Task 5 Employee Info 
+let employee = { name: "Alice", position: "Manager", salary: 75000 }
+
+for (let key in employee); //Iterate through object properties
+
+console.log("Emploee Info", employee);
+
+// Task 6 
