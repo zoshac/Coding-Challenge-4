@@ -52,3 +52,9 @@ for (let product of products);
 
 console.log("Product Listings", products);
 
+//Task 7 Order Processing 
+let orders = [876, 868, 246]; 
+orders.forEach(orderIDs =>{}) 
+
+console.log("Order IDs", orders);
+
