@@ -85,3 +85,5 @@ const calculatePoints = (purchaseAmount) => {
 let points = calculatePoints(600);
 
 console.log(`Customer Loyalty Points: ${points}`);
+
+// All Tasks Complete!
